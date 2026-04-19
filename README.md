@@ -19,7 +19,7 @@ A national-scale GeoAI framework for 30 m flood susceptibility mapping and pixel
 ## Live Application
 
 **Launch the interactive Google Earth Engine app:**  
-### [Open BD GeoAI Flood App](https://tinyurl.com/GeoAIFloodBD)
+## [Open BD GeoAI Flood App](https://tinyurl.com/GeoAIFloodBD)
 
 ---
 
@@ -51,6 +51,9 @@ A national-scale GeoAI framework for 30 m flood susceptibility mapping and pixel
     </td>
   </tr>
 </table>
+
+---
+
 ## Overview
 
 This repository accompanies the study **“Geospatial Artificial Intelligence-based Flood Susceptibility Mapping and Urban Flood Risk Assessment: A Machine Learning Framework to Reduce Flood Risk.”** It presents a reproducible national-scale workflow for:
@@ -61,7 +64,7 @@ This repository accompanies the study **“Geospatial Artificial Intelligence-ba
 - pixel-level urban flood risk proxy generation, and
 - district-level spatial clustering and hotspot detection.
 
-The framework was developed to move beyond hazard-only mapping by identifying where modeled flood susceptibility co-occurs with dense built environments and concentrated population. :contentReference[oaicite:0]{index=0}
+The framework was developed to move beyond hazard-only mapping by identifying where modeled flood susceptibility co-occurs with dense built environments and concentrated population.
 
 ---
 
@@ -78,7 +81,7 @@ The framework was developed to move beyond hazard-only mapping by identifying wh
 
 ## Study Area
 
-The study covers the full national territory of **Bangladesh**, including all **64 districts** across **8 divisions**, within one of the world’s most hydrologically complex deltaic environments. :contentReference[oaicite:1]{index=1}
+The study covers the full national territory of **Bangladesh**, including all **64 districts** across **8 divisions**, within one of the world’s most hydrologically complex deltaic environments.
 
 ---
 
@@ -94,7 +97,7 @@ The modelling framework integrates multiple public geospatial datasets, includin
 - **OpenStreetMap / HDX** for road distance
 - **WRI Aqueduct v2** for flood inventory generation
 - **TEMPO 2023 Q4** for building density, height, and volume proxy
-- **WorldPop 2020** for gridded population concentration :contentReference[oaicite:2]{index=2}
+- **WorldPop 2020** for gridded population concentration
 
 ---
 
@@ -104,7 +107,7 @@ A binary flood inventory was derived using the **WRI Aqueduct historical river-f
 
 - **10,000 flood points**
 - **10,000 non-flood points**
-- **20,000 total stratified samples** :contentReference[oaicite:3]{index=3}
+- **20,000 total stratified samples**
 
 ---
 
@@ -117,7 +120,7 @@ The following models were developed and compared:
 - **Stacking Ensemble**
 - **Artificial Neural Network (ANN)**
 
-All models used a **stratified 70:30 train-test split** and **10-fold cross-validation**. :contentReference[oaicite:4]{index=4}
+All models used a **stratified 70:30 train-test split** and **10-fold cross-validation**.
 
 ---
 
@@ -130,9 +133,9 @@ All models used a **stratified 70:30 train-test split** and **10-fold cross-vali
 - **Accuracy:** 78.4%
 - **Sensitivity:** 0.806
 - **Specificity:** 0.763
-- **F1-score:** 0.788 :contentReference[oaicite:5]{index=5}
+- **F1-score:** 0.788
 
-SHAP analysis identified **elevation**, **rainfall**, and **distance to coast** as the most influential predictors. :contentReference[oaicite:6]{index=6}
+SHAP analysis identified **elevation**, **rainfall**, and **distance to coast** as the most influential predictors.
 
 ---
 
@@ -141,18 +144,18 @@ SHAP analysis identified **elevation**, **rainfall**, and **distance to coast** 
 ### Flood Susceptibility
 - High and Very High susceptibility zones are concentrated in the **northeastern haor basin**, **north-central floodplain corridor**, **southwestern deltaic plain**, and **lower Meghna estuary**.
 - Combined **High + Very High** susceptibility classes cover approximately **30%** of Bangladesh.
-- **Sunamganj** was identified as the most flood-susceptible district. :contentReference[oaicite:7]{index=7}
+- **Sunamganj** was identified as the most flood-susceptible district.
 
 ### Urban Flood Risk
 - The pixel-based urban flood risk proxy was computed for more than **130 million valid pixels**.
 - **Very High** urban flood risk accounts for **4.77%** of valid pixels.
 - Combined **High + Very High** urban flood risk accounts for **11.62%** of valid pixels.
-- **Narayanganj** ranked as the highest urban flood risk district. :contentReference[oaicite:8]{index=8}
+- **Narayanganj** ranked as the highest urban flood risk district.
 
 ### Spatial Clustering
 - Flood susceptibility exhibited significant positive spatial autocorrelation.
 - Urban flood risk showed stronger clustering than susceptibility.
-- A compact **central-eastern urban flood risk hotspot corridor** emerged along the Dhaka-Meghna system. :contentReference[oaicite:9]{index=9} :contentReference[oaicite:10]{index=10}
+- A compact **central-eastern urban flood risk hotspot corridor** emerged along the Dhaka-Meghna system.
 
 ---
 
@@ -163,6 +166,6 @@ BD-GeoAI-Flood/
 ├── README.md
 ├── LICENSE
 ├── BD_Fig2_Methodology.png
-├── BD_Fig6_GeoAI_ML_ModelsAll.png
-├── BD_Fig8_LISA_Hotspot_MoransI.png
-└── BD_Fig9_NationalPixelBasedUrbanFloodRisk.png
+├── BD_Fig.6_GeoAI_ML_ModelsAll.png
+├── BD_Fig.8_LISA_Hotspot_MoransI.png
+└── BD_Fig.9_NationalPixelBasedUrbanFloodRisk.png
