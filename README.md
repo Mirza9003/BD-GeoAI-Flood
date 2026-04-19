@@ -33,27 +33,24 @@ A national-scale GeoAI framework for 30 m flood susceptibility mapping and pixel
       <b>Methodological Framework</b>
     </td>
     <td align="center" width="50%">
-      <img src="./BD_Fig6_GeoAI_ML_ModelsAll.png" alt="Comparative ML Flood Susceptibility Maps" width="100%">
+      <img src="./BD_Fig.6_GeoAI_ML_ModelsAll.png" alt="Comparative ML Flood Susceptibility Maps" width="100%">
       <br>
       <b>Comparative ML Flood Susceptibility Maps</b>
     </td>
   </tr>
   <tr>
     <td align="center" width="50%">
-      <img src="./BD_Fig8_LISA_Hotspot_MoransI.png" alt="LISA Hotspot and Moran's I" width="100%">
+      <img src="./BD_Fig.8_LISA_Hotspot_MoransI.png" alt="LISA Hotspot and Moran's I" width="100%">
       <br>
       <b>Spatial Clustering and Hotspot Analysis</b>
     </td>
     <td align="center" width="50%">
-      <img src="./BD_Fig9_NationalPixelBasedUrbanFloodRisk.png" alt="National Pixel-Based Urban Flood Risk" width="100%">
+      <img src="./BD_Fig.9_NationalPixelBasedUrbanFloodRisk.png" alt="National Pixel-Based Urban Flood Risk" width="100%">
       <br>
       <b>National Pixel-Based Urban Flood Risk</b>
     </td>
   </tr>
 </table>
-
----
-
 ## Overview
 
 This repository accompanies the study **“Geospatial Artificial Intelligence-based Flood Susceptibility Mapping and Urban Flood Risk Assessment: A Machine Learning Framework to Reduce Flood Risk.”** It presents a reproducible national-scale workflow for:
