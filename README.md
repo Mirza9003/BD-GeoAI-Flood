@@ -158,28 +158,34 @@ SHAP analysis identified **elevation**, **rainfall**, and **distance to coast** 
 - A compact **central-eastern urban flood risk hotspot corridor** emerged along the Dhaka-Meghna system.
 
 ---
+---
+
 ## Author
 
-Mirza Md Tasnim Mukarram
-Department of Computer Science, University of Iowa
-School of Earth, Environment and Sustainability, University of Iowa, USA
+**Mirza Md Tasnim Mukarram**  
+Department of Computer Science, University of Iowa  
+School of Earth, Environment and Sustainability, University of Iowa, USA  
 
-Co-Authors
+## Co-Authors
 
-Marc Linderman
-School of Earth, Environment and Sustainability
-University of Iowa, USA
+**Marc Linderman**  
+School of Earth, Environment and Sustainability  
+University of Iowa, USA  
 
-Md Sami Bin Shokrana
-MIT Center for Sustainability Science and Strategy
-Cambridge, MA, USA
+**Md Sami Bin Shokrana**  
+MIT Center for Sustainability Science and Strategy  
+Cambridge, MA, USA  
 
-##Citation
+---
+
+## Citation
 
 If you use this repository, figures, or derived outputs, please cite:
 
-Mukarram, M. M. T., Linderman, M., & Shokrana, M. S. B.
-Geospatial Artificial Intelligence-based Flood Susceptibility Mapping and Urban Flood Risk Assessment: A Machine Learning Framework to Reduce Flood Risk.
+**Mukarram, M. M. T., Linderman, M., & Shokrana, M. S. B.**  
+*Geospatial Artificial Intelligence-based Flood Susceptibility Mapping and Urban Flood Risk Assessment: A Machine Learning Framework to Reduce Flood Risk.*
+
+---
 
 ## Repository Structure
 
@@ -190,13 +196,4 @@ BD-GeoAI-Flood/
 ├── BD_Fig2_Methodology.png
 ├── BD_Fig.6_GeoAI_ML_ModelsAll.png
 ├── BD_Fig.8_LISA_Hotspot_MoransI.png
-
---- 
-
-
-
-
-
-
-
 └── BD_Fig.9_NationalPixelBasedUrbanFloodRisk.png
